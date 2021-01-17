@@ -8,7 +8,7 @@
     stages {
       stage('fetch_latest_code') {
         steps {
-          git credentialsId: 'df0097d7-257d-48ee-9353-6d1d563ec4df', url: 'https://github.com/imcuteani/terraform-jenkins-ec2'
+          git credentialsId: '', url: 'https://github.com/imcuteani/terraform-jenkins-ec2'
         }
       }
 
